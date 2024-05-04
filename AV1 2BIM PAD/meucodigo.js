@@ -1,5 +1,5 @@
-var sequencia = [1,3,5,7,9]
-//A sequência é de dois em dois
+var sequencia = [4,20,39,83,131,222]
+//Massa atômica dos gases nobres
 
 var opcao_correta = 2
 
@@ -9,4 +9,8 @@ function verificarResposta(valor) {
     } else {
         console.log("ERROU")
     }
+}
+function applySkew() {
+    var heading = document.getElementById("myHeading"); // Get the heading element
+    heading.style.transform = "rotate(2deg)"; // Apply the skew transformation
 }
